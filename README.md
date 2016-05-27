@@ -5,7 +5,7 @@ Currently this plugin hides only the ticket category field.
 
 ## Installation:
 - download the archive file
-- copy content of archive into your `glpi/plugins/` folder, beware that the plugin folder must be `hidefields`. So you should have a directory like: `glpi/plugins/hidefields`.
+- copy content of archive into your `glpi/plugins/` folder, beware that the plugin folder must be `hidefields`. So you should have a directory like: `glpi/plugins/hidefields/`.
 - go to glpi plugins page to install and enable the newly installed plugin.
 
 There is no configuration to be done, juste enable it and it should be ok.

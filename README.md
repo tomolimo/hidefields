@@ -10,7 +10,8 @@ Currently this plugin hides only the ticket category field.
 
 There is no configuration to be done, juste enable it and it should be ok.
 
-
+## GLPi compatibility:
+Tested with 0.85, 0.90 and 9.1
 
 
 

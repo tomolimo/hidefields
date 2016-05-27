@@ -1,71 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <root>
-   <name>Timezones</name>
-   <key>timezones</key>
+   <name>Hidefields</name>
+   <key>hidefields</key>
    <state>stable</state>
-    <logo>https://raw.githubusercontent.com/tomolimo/timezones/master/timezones.png</logo>
+   <logo>https://raw.githubusercontent.com/tomolimo/hidefields/master/hidefields.png</logo>
    <description>
       <short>
-         <fr><![CDATA[Gère les multi-timezones.]]></fr>
-         <en><![CDATA[Multi-timezones management.]]></en>
+         <fr><![CDATA[Cache des champs sur le formulaire de creation de ticket en interface simplifiée.]]></fr>
+         <en><![CDATA[Hides fields for ticket creation form when in simplified interface.]]></en>
       </short>
       <long>
-         <fr><![CDATA[Ce plugin est fait pour assurer la bonne gestion des timezones. Particulièrement utile lorsque GLPI est utilisé dans un contexte international. 
-				Depuis la version 2.0.0 le plugin est compatible avec PHP 5 et PHP 7,
-				Depuis la version 2.0.0 le fr_FR a été ajouté.]]></fr>
-         <en><![CDATA[This plugin ensures good management of timezones. Is a must when GLPI is used worldwide.
-				Since version 2.0.0 plugin is compatible with PHP 5 and PHP 7,
-				Since version 2.0.0 fr_FR has been added.]]></en>
+         <fr><![CDATA[Actuellement, cache le champ 'Catégorie' du formulaire de création de ticket en interface simplifiée. Ce plugin est uniquement du Javascrit.]]></fr>
+         <en><![CDATA[Currently only hides the 'Category' field on ticket creation form when using the simplified interface. This plugin is only Javascript.]]></en>
       </long>
    </description>
-   <homepage>https://github.com/tomolimo/timezones</homepage>
-   <download>https://github.com/tomolimo/timezones/releases</download>
-   <issues>https://github.com/tomolimo/timezones/issues</issues>
-   <readme>https://github.com/tomolimo/timezones/wiki</readme>
+   <homepage>https://github.com/tomolimo/hidefields</homepage>
+   <download>https://github.com/tomolimo/hidefields/releases</download>
+   <issues>https://github.com/tomolimo/hidefields/issues</issues>
+   <readme>https://github.com/tomolimo/hidefields/wiki</readme>
    <authors>
       <author>Olivier Moron </author>
    </authors>
    <versions>
 		<version>
-          <num>1.2.0</num>
-          <compatibility>0.83</compatibility>
-		</version>
-		<version>
-          <num>1.2.0</num>
+          <num>1.0.0</num>
           <compatibility>0.85</compatibility>
 		</version>
 		<version>
-          <num>1.3.0</num>
+          <num>1.0.0</num>
           <compatibility>0.90</compatibility>
 		</version>
 		<version>
-          <num>2.0.0</num>
-          <compatibility>0.85</compatibility>
-		</version><version>
-          <num>2.0.0</num>
-          <compatibility>0.90</compatibility>
-		</version><version>
-          <num>2.0.0</num>
-          <compatibility>0.91</compatibility>
+          <num>1.0.0</num>
+          <compatibility>9.1</compatibility>
 		</version>
    </versions>
    <langs>
-      <lang>en_GB</lang>
-      <lang>fr_FR</lang>
+      <lang>No language</lang>
    </langs>
    <license><![CDATA[GPL v2+]]></license>
    <tags>
          <fr>
-            <tag>Calendrier</tag>
             <tag>Helpdesk</tag>
-			<tag>Utilisateurs</tag>
-			<tag>Données</tag>
+			<tag>Création ticket</tag>
+			<tag>Interface simplifiée</tag>
          </fr>
          <en>
-            <tag>Calendar</tag>
             <tag>Helpdesk</tag>
-			<tag>Users</tag>
-			<tag>Data</tag>
+			<tag>Ticket creation</tag>
+			<tag>Simplified interface</tag>
          </en>
    </tags>
 </root>
